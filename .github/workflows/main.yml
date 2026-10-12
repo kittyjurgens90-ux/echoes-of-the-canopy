@@ -7,15 +7,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Set up JDK 17
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           java-version: '17'
           distribution: 'temurin'
+
       - name: Make gradlew executable
         run: chmod +x gradlew
-      - name: Build with Gradle
+
+      - name: Run Data Generators
+        run: ./gradlew runData
+
+      - name: Build Mod Jar
         run: ./gradlew build
+
       - name: Upload Mod Jar
         uses: actions/upload-artifact@v4
         with:
