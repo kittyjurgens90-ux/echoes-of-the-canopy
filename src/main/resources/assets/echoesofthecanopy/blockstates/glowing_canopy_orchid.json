@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "echoesofthecanopy:block/glowing_canopy_orchid"
+    },
+    "hanging=true": {
+      "model": "echoesofthecanopy:block/glowing_canopy_orchid",
+      "x": 180
+    }
+  }
+}
