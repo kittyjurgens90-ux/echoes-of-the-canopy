@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "echoesofthecanopy:block/glowing_canopy_orchid"
-  }
-}
