@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "V": { "item": "minecraft:vine" },
+    "S": { "item": "minecraft:string" }
+  },
+  "pattern": [ " I ", "VSV", " S " ],
+  "result": { "item": "echoesofthecanopy:canopy_hook_rope" }
+}

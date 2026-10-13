@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="echoesofthecanopy"
+version="1.0.0"
+displayName="Echoes of the Canopy"
+description='''
+A grappling Hook-Rope for forest traversal and a bioluminescent canopy orchid.
+'''
+
+[[dependencies.echoesofthecanopy]]
+modId="forge"
+mandatory=true
+versionRange="[47.2.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.echoesofthecanopy]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

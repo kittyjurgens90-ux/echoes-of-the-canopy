@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:interpolated",
+  "argument": {
+    "type": "minecraft:max",
+    "argument1": "echoesofthecanopy:ever_canopy/islands",
+    "argument2": "echoesofthecanopy:ever_canopy/branches"
+  }
+}
